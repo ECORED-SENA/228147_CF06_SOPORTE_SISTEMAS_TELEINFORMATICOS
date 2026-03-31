@@ -2,31 +2,60 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 10%
+    right: 70%
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 5%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: 60%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
-.banner-principal .tarjeta
-  background-position: left 50% !important
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+.banner-principal__img
+  width: 400px
 
 .banner-interno__titulo__icono i
-  color: $color-primario
+  color: #FF9800 !important
 
-figcaption
-  font-weight: normal
+.bloque-texto-g.color-secundario
+  background-color: #373F51
+
+.cajon.color-acento-botones1
+  background-color: #F5E3EF !important
+.cajon.color-acento-botones1::before
+  background-color: #E8BAD8
+
+.cajon.color-acento-botones2
+  background-color: #DEE9EC !important
+.cajon.color-acento-botones2::before
+  background-color: #AFC8D1
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  opacity: 1
+.slyder-a__bullets__item--active
+  background-color: #FF9800 !important
+  border-color: #373F51 !important
+.slyder-a__bullets__item
+  background-color: #F0D9B7 !important
+
+.bg
+  &-c1
+    background-color: #EEF4F5
+    border-radius: 15px
