@@ -131,18 +131,23 @@ export default {
     {
       tema: 'Red de computación',
       referencia:
-        'Choi, K. W., & Nan, H. (2014). Editorial for Special Issue on “Challenges Pervasive Network and Applications for Internet of Things”. <em>Mobile Networks and Applications</em>, 19(3), 360-362.',
-      tipo: 'Artículo',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_proquest_journals_1540737188',
+        'Román-Salinas, R. V., Díaz-Martínez, M. A., Ruíz-Hernández, S., Cervantes-Zubirías, G., & Morales-Rodríguez, M. A. (2024). <i>El internet de las cosas y la industria 4.0: Aplicaciones en el campo de la ingeniería industrial</i>. Revista UIS Ingenierías, 23(2), 111-130.',
+      tipo: 'PDF',
+      link: 'https://doi.org/10.18273/revuin.v23n2-2024007',
     },
     {
       tema: 'Red de computación',
       referencia:
-        'Salman, A. A., & Alisa, Z. T. (2019). Improving the Network Lifetime in Wireless Sensor Network for Internet of Thing Applications. <em>Al-Khwarizmi Engineering Journal</em>, 15(4), 79-90.',
-      tipo: 'Artículo',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_beb12487a7a744a48c64ea26f314001d',
+        'Olivera Ruiz, G., & Perez Espinoza, G. K. (2026). <i>Sensores y aplicaciones de IoT en entornos agrícolas: mapeo sistemático</i>. Revista InveCom, 6(2).',
+      tipo: 'PDF',
+      link: 'https://doi.org/10.5281/zenodo.15809119',
+    },
+    {
+      tema: 'Red de computación',
+      referencia:
+        'Fagua Fagua, A. L., & Najar Pacheco, J. C. (2020). <i>Internet de las cosas, realidad de un mundo conectado</i>. Visión Electrónica, 14(2).',
+      tipo: 'PDF',
+      link: 'https://doi.org/10.14483/22484728.16783',
     },
   ],
   glosario: [
