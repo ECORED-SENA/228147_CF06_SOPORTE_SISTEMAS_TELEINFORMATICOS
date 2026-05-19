@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Conectividad de las redes en las organizaciones',
     descripcionCurso:
-      'En este componente se aborda los conceptos de conectividad de una red de datos, cómo se hace detección de fallas sobre la red de acceso y cómo se desarrollan los procesos de gestión.',
+      'En este componente se abordan los conceptos de conectividad de una red de datos, cómo se hace detección de fallas sobre la red de acceso y cómo se desarrollan los procesos de gestión.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -193,11 +193,11 @@ export default {
     },
     {
       termino: 'ITIL',
-      significado: ' Information Technology Infrastructure Library',
+      significado: ' Information Technology Infrastructure Library.',
     },
     {
       termino: 'ITSM',
-      significado: 'gestión de servicios de TI',
+      significado: 'gestión de servicios de TI.',
     },
     {
       termino: 'RAM',
@@ -244,15 +244,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
-          cargo: 'Responsable del equipo',
-          centro: 'Dirección General',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Liliana Victoria Morales Guadrón',
-          cargo: 'Responsable de línea de producción',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
+          cargo: 'Responsable de línea de producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -263,31 +263,31 @@ export default {
           nombre: 'Joaquín Fernando Sánchez',
           cargo: 'Experto temático',
           centro:
-            'Regional Norte de Santander - Centro de la industria, la empresa y los servicios',
+            'Centro de la industria, la empresa y los servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Maribel Avellaneda Nieves',
           cargo: 'Diseñador instruccional',
           centro:
-            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+            'Centro de la industria, la empresa y los servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable Equipo desarrollo curricular',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Gloria Lida Alzate Suarez',
           cargo: 'Adecuador Instruccional',
           centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+            'Centro de gestión de mercados, Logística y Tecnologías de la información - Regional Distrito Capital',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Asesoría metodológica y pedagógica',
           centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de gestión de mercados, Logística y Tecnologías de la información - Regional Distrito Capital',
         },
       ],
     },
@@ -295,22 +295,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
+          nombre: 'Yerson Fabian Zárate Saavedra',
+          cargo: 'Diseñador web',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Jhon Jairo Urueta Álvarez',
+          cargo: 'Desarrollador <i>Fullstack</i>',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
           nombre: 'Eulises Orduz Amézquita',
           cargo: 'Diseñador web',
           centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Luis Jesús Pérez Madariaga',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <i>Fullstack</i>',
           centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -318,23 +330,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Carolina Coca Salazar',
-          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          nombre: 'Ricardo Oliveros Zambrano',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Leyson Fabian Castaño Pérez',
-          cargo:
-            'Validación de recursos educativos digitales y vinculación LMS',
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
-            'Regional Distrito Capital - Centro de gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo PIzo Ossa',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
