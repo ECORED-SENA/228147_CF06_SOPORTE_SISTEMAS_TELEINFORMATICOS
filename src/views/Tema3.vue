@@ -8,14 +8,14 @@
       h1 Redes de acceso
     .cont_3_1
       figure.mb-4.mb-lg-0(data-aos="zoom-in-down")
-        img(src="@/assets/curso/tema3/1.png", alt='Imágen decorativa')
+        img(src="@/assets/curso/tema3/1.png", alt='')
       .col-lg-10.m-auto(data-aos="zoom-in-up")
         .p-4.cont_gradiente_1(style="box-shadow:0px 0px 10px rgba(0,0,0,.2);background: linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%);margin-top:-100px;border-radius:15px;")
           p.mb-0 Una red de área local, se limita normalmente a un solo edificio o conjunto de edificios que están muy cerca, pero, ¿qué ocurre cuando una red se expande a un área metropolitana, a un estado o a todo el país? Una red que se expande a un área metropolitana y que presenta altas velocidades de datos, alta fiabilidad y baja pérdida de datos se denomina red de área metropolitana (MAN).
     .row.my-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure.col-7.col-md-6.col-lg-12.m-auto
-          img(src="@/assets/curso/tema3/2.png", alt='Imágen decorativa')
+          img(src="@/assets/curso/tema3/2.png", alt='')
       .col-lg-8(data-aos="fade-left")
         p #[strong(style="color:#5573C6;") ¿Qué ocurre cuando una red es más grande que un área metropolitana?] Una red que se expande más allá de un área metropolitana es una red de área amplia. Las redes de área amplia comparten algunas características con las redes de área local: Interconectan computadores, utilizan algún tipo de medio para la interconexión y soportan aplicaciones de red. Pero hay diferencias. Las redes de área local no realizan el enrutamiento. En su lugar, los conmutadores reenvían las tramas al destino local adecuado, mientras que los #[em routers] enrutan los paquetes de una red de área amplia a otra. Las redes de área amplia pueden interconectar un gran número de estaciones de trabajo (dispositivos), de manera que cualquier estación de trabajo puede transferir datos a cualquier otra estación de trabajo. Como su nombre indica, las redes de área amplia pueden cubrir grandes distancias geográficas, incluida toda la Tierra.
         .cajon.mt-4.p-4.color-acento-contenido(style="background-color:#E8FFFD;" data-aos="flip-up")
@@ -29,12 +29,12 @@
     p(data-aos="fade-right") Muchas de las mismas tecnologías y protocolos de comunicación que se encuentran en las redes de área local (y en las de área amplia) se utilizan para crear redes de área metropolitana. Sin embargo, las MAN suelen ser únicas en cuanto a topología y características de funcionamiento, veamos algunas de ellas destacadas en la siguiente infografía:
     .cont_3_2.mt-4.pt-4.pb-4(style="position:relative;")
       figure.d-none.d-lg-block
-        img(src="@/assets/curso/tema3/3.svg" style="max-width:220px;position:absolute;display:inline;left:0;top:130px;", alt='Imágen decorativa')
+        img(src="@/assets/curso/tema3/3.svg" style="max-width:220px;position:absolute;display:inline;left:0;top:130px;", alt='Sistemas de recuperación de desastres de alta velocidad y de respaldo de transacciones en tiempo real. Interconexiones entre centros de datos corporativos y proveedores de servicios de Internet. Conexiones de alta velocidad entre instalaciones gubernamentales, empresariales, médicas y educativas. Velocidades de datos de decenas de millones y cientos de millones de bits por segundo. Tasas de error muy bajas y un rendimiento extremadamente alto.')
       figure.d-none.d-lg-block
-        img(src="@/assets/curso/tema3/5.svg" style="max-width:220px;position:absolute;display:inline;right:0;top:130px;", alt='Imágen decorativa')
+        img(src="@/assets/curso/tema3/5.svg" style="max-width:220px;position:absolute;display:inline;right:0;top:130px;", alt='Sistemas de recuperación de desastres de alta velocidad y de respaldo de transacciones en tiempo real. Interconexiones entre centros de datos corporativos y proveedores de servicios de Internet. Conexiones de alta velocidad entre instalaciones gubernamentales, empresariales, médicas y educativas. Velocidades de datos de decenas de millones y cientos de millones de bits por segundo. Tasas de error muy bajas y un rendimiento extremadamente alto.')
       .col-xl-8.m-auto(data-aos="zoom-in-up")
         figure
-          img(src="@/assets/curso/tema3/4.svg", alt='Imágen decorativa')
+          img(src="@/assets/curso/tema3/4.svg", alt='')
     p.mt-5.fw-bold.text-center(data-aos="zoom-in" style="color:#5573C6;") Aunque estas características no son tan diferentes de las de muchas redes de área local, hay algunas que distinguen a las MAN de las LAN:
     ul.lista-ul--separador.mt-4.mb-5(data-aos="flip-up")
       li.d-flex
@@ -54,14 +54,14 @@
             .row
               .col-2.d-none.d-lg-block
                 figure(data-aos="fade-right")
-                  img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
+                  img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='')
               .col
                 figure(data-aos="zoom-in-up")
                   img(src="@/assets/curso/tema3/6.svg", alt='Figura que muestra una configuración típica de anillo físico de fibra óptica.')
                 figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
               .col-auto.d-none.d-lg-block(style="place-self:end;")
                 figure(data-aos="fade-left")
-                  img(src="@/assets/curso/tema1/5.svg", alt='Imágen decorativa')
+                  img(src="@/assets/curso/tema1/5.svg", alt='')
       li.d-flex(data-aos="fade-right")
         i.fas.fa-check-circle(style="color:#FFC94A;")
         div #[strong Por último], una característica que está empezando a aparecer en las MAN, pero que no tienen actualmente ni las LAN ni las WAN, es la capacidad de un usuario de asignar dinámicamente más ancho de banda bajo demanda. Supongamos que usted trabaja para una empresa y tiene una conexión MAN entre su oficina corporativa y un proveedor de servicios de Internet. Usted prevé, quizás porque está a punto de presentar una nueva oferta de servicio al cliente, que la demanda en el enlace MAN crecerá sustancialmente en los próximos días. Por lo tanto, realiza una llamada telefónica —o, en algunos casos, accede a una página web— y solicita que se aumente el ancho de banda de su conexión MAN en una cantidad determinada. El proveedor de servicios MAN recibe su solicitud, aumenta inmediatamente su ancho de banda y le factura en consecuencia. Es posible que en el futuro todas las redes —locales, metropolitanas y de área amplia— dispongan de esta potente función. Por ahora, solo la ofrecen algunos proveedores de servicios MAN.
@@ -86,19 +86,19 @@
       .row
         .col-2.d-none.d-lg-block
           figure(data-aos="fade-right")
-            img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
+            img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='')
         .col
           figure(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema3/8.svg", alt='Figura que muestra una configuración típica de anillo SONET.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
-            img(src="@/assets/curso/tema1/5.svg", alt='Imágen decorativa')
+            img(src="@/assets/curso/tema1/5.svg", alt='')
     .col-xl-10.m-auto.mt-5
       .row
         .col-auto.d-none.d-md-block(style="place-self:center;" data-aos="fade-right")
           figure
-            img(src="@/assets/curso/tema3/9.svg", alt='Imágen decorativa')
+            img(src="@/assets/curso/tema3/9.svg", alt='')
         .col(style="place-self:center;" data-aos="fade-left")
           .p-3.text-white.cont_arrow1(style="background-color:#12263F;")
             p.mb-0 Lamentablemente, SONET tiene una serie de desventajas. Es una tecnología compleja y bastante cara que no puede aprovisionarse dinámicamente. Además, SONET se diseñó para soportar múltiples flujos de canales de voz (como múltiples T-1, que transmiten a 1,544 Mbps) y, por lo tanto, no se adapta bien a los trozos de 1-Mbps, 10-Mbps, 100-Mbps y 1000-Mbps que se suelen utilizar en las transmisiones de datos. Estas deficiencias han reavivado el interés por una tecnología más antigua que SONET, pero recién llegada al campo de las redes de área metropolitana: Ethernet.
@@ -106,7 +106,7 @@
     .row.mt-4
       .col-auto.d-none.d-md-block(data-aos="fade-right" style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/9.svg", alt='Imágen decorativa')
+          img(src="@/assets/curso/tema1/9.svg", alt='')
       .col(data-aos="fade-left" style="place-self:center;")
         p.mb-0 Para mejorar los tiempos de conmutación por error de las MAN basadas en Ethernet, muchas redes utilizan ahora el protocolo Rapid Spanning Tree, que puede reducir el tiempo de conmutación por error a tan solo 50 milisegundos. En cualquier caso, las MAN Ethernet tienen una serie de características atractivas y su popularidad está creciendo. La siguiente figura muestra un diseño típico de una topología Ethernet MAN. Obsérvese que la red tiene un diseño de malla con rutas redundantes entre los puntos finales.
     .col-xl-6.col-lg-8.mt-5
@@ -117,14 +117,14 @@
       .row
         .col-2.d-none.d-lg-block
           figure(data-aos="fade-right")
-            img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='Imágen decorativa')
+            img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;", alt='')
         .col
           figure(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema3/10.svg", alt='Figura que muestra un diseño típico de una topología Ethernet MAN.')
           figcaption.text-small.fw-normal.mt-4.text-center(style="color:#727997;background-color:transparent;") Nota. Tomada de #[em Data Communication and Computer Networks: A Business User's Approach], por J. West, 2022, Cengage Learning
         .col-auto.d-none.d-lg-block(style="place-self:end;")
           figure(data-aos="fade-left")
-            img(src="@/assets/curso/tema1/5.svg", alt='Imágen decorativa')
+            img(src="@/assets/curso/tema1/5.svg", alt='')
     p.mt-5(data-aos="fade-right") Las MAN de Ethernet han dado lugar a un servicio más reciente cuya popularidad ha crecido en los últimos años: Metro Ethernet. Metro Ethernet es un servicio de transferencia de datos que puede conectar una empresa con otra (o varias) utilizando una conexión Ethernet estándar. Con Metro Ethernet, la empresa se conecta directamente a otra utilizando una conexión punto a punto o, por ejemplo, a otras dos empresas utilizando dos conexiones punto a punto, como se muestra en la Figura 17. También puede conectarse a varias compañías como si todas ellas formaran parte de una gran red de área local, como se muestra en la Figura 18. La primera conexión es lo mismo que tener una conexión privada entre dos puntos. Un ejemplo común de este tipo de conexión Metro Ethernet se encuentra cuando una empresa está conectada a un proveedor de servicios de Internet. Todo el tráfico de esta conexión se realiza entre solo dos lugares. Esta última conexión es un ejemplo de conexión multipunto a multipunto. Aquí, cualquier empresa puede hablar con una o varias (o todas) las empresas conectadas. Por lo tanto, una empresa necesita enviar solo un paquete para asegurarse de que varias empresas reciben estos datos.
     .cont_3_3.p-4.p-lg-5.mt-4
       .row
