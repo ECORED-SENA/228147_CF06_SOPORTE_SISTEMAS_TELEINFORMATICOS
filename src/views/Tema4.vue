@@ -37,7 +37,7 @@
         p Los mensajes restantes, GET_RESPONSE y TRAP, se originan en el agente. El agente responde a los tres primeros mensajes con el mensaje GET_RESPONSE. En cada caso, el intercambio es iniciado por el gestor. Con el mensaje TRAP, la acción es iniciada por el agente. Al igual que una interrupción de #[em hardware] en un computador, el mensaje TRAP es la forma que tiene el agente de llamar la atención del gestor. Las trampas juegan un papel esencial en la gestión de la red, ya que alertan de los problemas que necesitan atención. Saber que un dispositivo está caído es, por supuesto, el primer paso para corregir el problema. Y siempre es útil poder decirle a un usuario descontento que se es consciente del problema y se está trabajando en él. Las trampas son lo más parecido a un procesamiento en tiempo real de SNMP. Desafortunadamente, para muchos problemas de red (como un sistema colapsado), los traps pueden no ser enviados. Incluso cuando se envían traps, podrían ser descartados por un #[em router] ocupado. UDP es el protocolo de transporte, por lo que no hay detección de errores por paquetes perdidos. La siguiente Figura 19 resume la dirección que toman los mensajes cuando viajan entre el gestor y el agente.
     .col-xl-6.col-lg-8.mt-5
       .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
-        h5 Figura 19.
+        h5 Figura 20.
         span Mensaje SMNP
     .col-xl-10.m-auto.mt-5.p-5.bg-c1
       .row
@@ -73,7 +73,7 @@
         p.mb-0 Los objetos reales que se manipulan se identifican mediante un identificador de objeto (OID) único y autorizado. Cada OID es, en realidad, una secuencia de números enteros separados por puntos decimales, lo que a veces se denomina notación de puntos. Por ejemplo, el OID de la descripción de un sistema es 1.3.6.1.2.1.1. Este OID surge de la organización estandarizada de todos estos objetos, parte de la cual se muestra en la Figura 20. Los objetos reales son las hojas del árbol. Para eliminar cualquier posibilidad de ambigüedad entre los objetos, éstos se nombran dando su ruta completa desde la raíz del árbol hasta la hoja.
     .col-xl-6.col-lg-8.mt-5
       .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
-        h5 Figura 20.
+        h5 Figura 21.
         span Estructura de un OID
     .col-xl-10.m-auto.mt-5.p-5.bg-c1
       .row

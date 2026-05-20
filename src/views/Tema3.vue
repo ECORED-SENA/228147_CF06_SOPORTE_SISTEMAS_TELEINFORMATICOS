@@ -28,6 +28,9 @@
         h3 Fundamentos de la red de área metropolitana
     p(data-aos="fade-right") Muchas de las mismas tecnologías y protocolos de comunicación que se encuentran en las redes de área local (y en las de área amplia) se utilizan para crear redes de área metropolitana. Sin embargo, las MAN suelen ser únicas en cuanto a topología y características de funcionamiento, veamos algunas de ellas destacadas en la siguiente infografía:
     .cont_3_2.mt-4.pt-4.pb-4(style="position:relative;")
+      .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
+        h5 Figura 14.
+        span Características principales de las redes MAN
       figure.d-none.d-lg-block
         img(src="@/assets/curso/tema3/3.svg" style="max-width:220px;position:absolute;display:inline;left:0;top:130px;", alt='Sistemas de recuperación de desastres de alta velocidad y de respaldo de transacciones en tiempo real. Interconexiones entre centros de datos corporativos y proveedores de servicios de Internet. Conexiones de alta velocidad entre instalaciones gubernamentales, empresariales, médicas y educativas. Velocidades de datos de decenas de millones y cientos de millones de bits por segundo. Tasas de error muy bajas y un rendimiento extremadamente alto.')
       figure.d-none.d-lg-block
@@ -48,7 +51,7 @@
         div #[strong Una tercera característica] que distingue a muchas MAN de las LAN y las WAN es que algunas topologías MAN se basan en un anillo. La MAN en anillo es única porque es un anillo tanto lógica como físicamente. Así, no solo se transmiten los datos en forma de anillo, sino que también los #[em routers] y <i>switches</i> de la red están interconectados en forma de anillo (Figura 14).
           .col-xl-6.col-lg-8.mt-5
             .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
-              h5 Figura 14.
+              h5 Figura 15.
               span Anillo físico de fibra óptica
           .col-xl-10.m-auto.mt-5.p-5.bg-c1
             .row
@@ -80,7 +83,7 @@
           p.mb-0 Casi todas las MAN se basan en una de las dos formas básicas de tecnología de soporte: SONET o Ethernet. SONET, es una técnica de multiplexación sincrónica por división de tiempo que es capaz de enviar datos a una velocidad de cientos de millones de bits por segundo. La topología de la red es un anillo, pero este anillo se compone en realidad de múltiples anillos que permiten a la red proporcionar una copia de seguridad en caso de fallo de un segmento (Figura 15). Esta es una de las características de los anillos SONET que les permite tener un tiempo de conmutación por error muy bajo. En la actualidad, muchas MAN se apoyan en la tecnología de anillos SONET.
     .col-xl-6.col-lg-8.mt-5
       .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
-        h5 Figura 15.
+        h5 Figura 16.
         span Anillo SONET
     .col-xl-10.m-auto.mt-5.p-5.bg-c1
       .row
@@ -111,7 +114,7 @@
         p.mb-0 Para mejorar los tiempos de conmutación por error de las MAN basadas en Ethernet, muchas redes utilizan ahora el protocolo Rapid Spanning Tree, que puede reducir el tiempo de conmutación por error a tan solo 50 milisegundos. En cualquier caso, las MAN Ethernet tienen una serie de características atractivas y su popularidad está creciendo. La siguiente figura muestra un diseño típico de una topología Ethernet MAN. Obsérvese que la red tiene un diseño de malla con rutas redundantes entre los puntos finales.
     .col-xl-6.col-lg-8.mt-5
       .titulo-sexto.color-acento-botones(data-aos="zoom-in-down")
-        h5 Figura 16.
+        h5 Figura 17.
         span Topología estrella
     .col-xl-10.m-auto.mt-5.p-5.bg-c1
       .row
@@ -130,13 +133,13 @@
       .row
         .col-xl-6.mb-4.mb-lg-0
           .titulo-sexto.color-acento-botones(data-aos="zoom-in-up")
-            h5 Figura 17.
+            h5 Figura 18.
             span Conexión entre dos puntos
           figure(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema3/11.svg", alt='Figura que muestra una conexión entre dos puntos, indicando que puede conectarse a otras dos empresas utilizando dos conexiones punto a punto.')
         .col-xl-6
           .titulo-sexto.color-acento-botones(data-aos="zoom-in-up")
-            h5 Figura 18.
+            h5 Figura 19.
             span Conexión multipuntos
           figure(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema3/12.svg", alt='Figura que muestra una conexión entre multipuntos, indicando que puede conectarse a varias compañías como si todas ellas formaran parte de una gran red de área local.')
